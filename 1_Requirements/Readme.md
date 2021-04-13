@@ -1,29 +1,30 @@
 # Requirements
 ## Introduction
- * During COVID-19 Pnademic, Vaccination is the most effective protection one can give to themselves but managing patients at small hospitals and clinics may be a daunting task as they are not equipped with high end HMS and ERP systems so to ease the process this system will enable one to perform CRUD operations on patients records and will facilitate a smooth process of the hospital functioning.
- * This topic was chosen because it gives me an opportunity to implement efficient data structures and provides me flexibilty to understand multiple C programming concepts.
+ * The main aim of this project is to develop software for bank  management system. This project has been developed to carry out the process easily and quickly , which seems tedious with  manual systems .The system provides the access to the customer to create an account , deposite/withdraw cash from his/her account, also to check the balance and generate recipt for the balance and also facilitates transcation from one account to another.
 
 ## Research
-### Patient Management Software System Features and Benefits
-A health care providers main aim is, caring for patients and the buildup of everyday tasks like paperwork, scheduling and billing can get in the way of that. What is patient management software anyway? A patient management system is also known as clinic management software, patient manager software, medical patient software or medical practice management software (MPM). It refers to a number of efficient automated systems designed for tracking patient information, diagnoses, prescriptions, interactions and encounters within healthcare organizations like medical clinics or hospitals.
+### Bank Management System Features and Benefits
+Over the last several decades, the personnel function has evolved from a relatively obscure record-keeping function to a central and top-level management function. Many factors such as technological developments, professionalism, and the general recognition of people as the most important resources have influenced this transformation.
+A computer based management system is designed  to introduce more user friendliness in the various activities such as account creation , updation , deletion , checking bank balance and transaction and searching .
 
-Some of these software applications focus on general patient management while others address specific processes such as inpatient tracking or blood testing. What they all have in common is that they make your job as a care provider smoother and more manageable.
+The main goal of our project is to provide various types of customer facilities, and to provide good  customer service. 
+
+* It should fulfill almost all the process requirements of any Bank.	
+* It should increase the productivity of bank by utilizing the working  hours more and more, with minimum manpower.
 
 ### Benefits
-Patient management information systems offer a range of benefits to providers big and small. Here are 
-just a few of them:
 
-### Better Vaccine Management
-A patient management app helps streamline every element of a medical office including recordkeeping, charting, patient scheduling, claims processing and billing functions.
+Bank management system provides wide range of benefit they are as follows:
 
-### Ease burden on staff
-Administrative staffing is one of the big drivers of high healthcare costs. Automating routine processes like patient flow management helps medical clinics and hospitals minimize their administrative expenses.
+### Provides flexibility
 
-### Timely Patient Care
-Larger clinics and hospitals can enjoy similar benefits to smaller ones but have the added bonus of making patient-related processes more efficient. Because large practices have a heavy patient flow, the scheduling features of MPM is crucial to operations. Having an organized patient intake flow can mean the difference between a calm, orderly waiting room and a packed hotbed of irritation and frustration.
+### For better performance
 
-### Organization
-Practice management software offers charting modules to keep patient data, charts, appointments and billing information together in a single digital file. Digital storage capability saves space for a neater, more welcoming office — not to mention less harried employees. 
+### Reducing man power
+
+### For doing work more accurately
+
+### Faster performance
 
 ## Cost and Features with Time 
 | Time | Feature | Cost |
@@ -31,22 +32,21 @@ Practice management software offers charting modules to keep patient data, chart
 | 10
 
 ## Defining Our System
-### Certain assumptions:
+<!--### Certain assumptions:
 * Few systems already exists with which our system will interact
     * Hospital Management Application
     * Analytics System
-    * Emergency Services
-![Description](https://github.com/arc-arnob/LnT_Mini_Project/blob/main/1_Requirements/system.png)
+    * Emergency Services-->
+![Description](https://github.com/priyankabb153/LnT_Mini_Project/blob/main/1_Requirements/system.png)
 ### Explanation:
 * Patient Management Application have few inbuilt features like:
-    * Create a patient record
-    * Delete a patient record
-    * Read a patient record
-    * Update a patient record
-    * Save record to file
-    * Read record from file 
-
-* Since we have assumed that few systems already exists we can say that in future sprints new features could be added in which for instance patient record from PMS can be sent to HMS or Analytics or even to emegency services if some patient record shows abnormal pattern.
+    * Create a new account
+    * Update information of existing account
+    * Delete an exisiting account
+    * Displaying account details
+    * Transaction from one account to another
+    * Generating recipt
+  
 
 ## SWOT ANALYSIS
 ![SWOT Analysis](https://github.com/arc-arnob/LnT_Mini_Project/blob/main/1_Requirements/swot.png)
