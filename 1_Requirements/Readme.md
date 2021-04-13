@@ -47,7 +47,7 @@ Bank management system provides wide range of benefit they are as follows:
     * Transaction from one account to another
     * Generating recipt
   
-
+<!--
 ## SWOT ANALYSIS
 ![SWOT Analysis](https://github.com/arc-arnob/LnT_Mini_Project/blob/main/1_Requirements/swot.png)
 
@@ -93,3 +93,4 @@ Bank management system provides wide range of benefit they are as follows:
 | LR05 | User shall be able to save the files, if file already exists then it should append to file and should not overwrite it and if file does not exists then it should create a new file | HR05 | TBD-S1 |
 | LR06 | If opening the file fails, then the system shloud prompt the message "Unable to access file" and should not end the program execution | HR05, HR06, HR07, HR08 | TBD-S1 |
 | LR07 | When user Log off the system, message shall be prompted asking the user to save new records to file before exiting or not | HR08 | TBD-S1 |
+-->
