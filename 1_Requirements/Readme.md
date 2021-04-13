@@ -37,7 +37,7 @@ Bank management system provides wide range of benefit they are as follows:
     * Hospital Management Application
     * Analytics System
     * Emergency Services-->
-![Description](https://github.com/priyankabb153/LnT_Mini_Project/blob/main/1_Requirements/system.png)
+![Description](https://github.com/priyankabb153/LTTS_Mini_project/blob/main/1_Requirements/system.png)
 ### Explanation:
 * Patient Management Application have few inbuilt features like:
     * Create a new account
@@ -46,7 +46,6 @@ Bank management system provides wide range of benefit they are as follows:
     * Displaying account details
     * Transaction from one account to another
     * Generating recipt
-  
 <!--
 ## SWOT ANALYSIS
 ![SWOT Analysis](https://github.com/arc-arnob/LnT_Mini_Project/blob/main/1_Requirements/swot.png)
