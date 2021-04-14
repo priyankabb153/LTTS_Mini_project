@@ -49,27 +49,27 @@ Bank management system provides wide range of benefit they are as follows:
     * Deposit amount
     * Withdraw amount
    
-<!--
+
 ## SWOT ANALYSIS
-![SWOT Analysis](https://github.com/arc-arnob/LnT_Mini_Project/blob/main/1_Requirements/swot.png)
+![SWOT Analysis](https://github.com/priyankabb153/LTTS_Mini_project/blob/main/1_Requirements/swot.png)
 
 # 4W&#39;s and 1&#39;H
 
 ## Who:
-* Small and medium size clinics Providing Covid vaccinations to patients
+* Banks
 
 ## What:
-* Many Clinics are not able to afford high end HMS or ERP systems and hence still depend on manual filing systems. During COVID vaccinations it becomes a tedious task to manage every patient with hand written file system
+* As transactions of banks are increasing day by day the manual management of such system becomes tedious
 
 ## When:
-* This problem began in February 2021, when COVID Vaccination Drive began and small/medium clinics will soon have to administer vaccinations to people.
+* When we want to carry out the tasks quickly and this reduces lots of paper-works and manual work
 
 ## Where:
-* This problem is expected to surface in all states of India.
+* This issue can be seen in all parts of world where there is lots of transcations happening all the time.
 
 ## How:
-* This problem may cause ineffective vaccine management and hence there can be a huge amount of vaccine wastage. As per recent data in cities like Noida and Delhi till date 9%-18% vaccines have gone to waste.
--->
+* The wronge entiries made manually by the person may cause wrong transactions.
+
 # Detail requirements
 ## High Level Requirements: 
 | ID | Description | Category | Status | 
