@@ -27,11 +27,12 @@ Bank management system provides wide range of benefit they are as follows:
 
 ### Faster performance
 
+<!--
 ## Cost and Features with Time 
 | Time | Feature | Cost |
 | ----- | ----- | ----- |
 | 10
-
+-->
 ## Defining Our System
 <!--### Certain assumptions:
 * Few systems already exists with which our system will interact
