@@ -7,7 +7,7 @@
 ![ComponentDiagram](https://github.com/priyankabb153/LTTS_Mini_project/blob/main/2_Architecture/COMPONENT.png)
 -->
 * Usecase Diagram :
-![UsecaseDiagram](https://github.com/priyankabb153/LTTS_Mini_project/blob/main/2_Architecture/Usecasehdl.jpg)
+![UsecaseDiagram](https://github.com/priyankabb153/LTTS_Mini_project/blob/main/2_Architecture/Usecasehdl.png)
 
 ## Low Level Design 
 
