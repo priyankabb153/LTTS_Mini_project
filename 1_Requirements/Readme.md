@@ -1,6 +1,7 @@
 # Requirements
 ## Introduction
  * The main aim of this project is to develop software for bank  management system. This project has been developed to carry out the process easily and quickly , which seems tedious with  manual systems .The system provides the access to the customer to create an account , deposite/withdraw cash from his/her account, also to check the balance and generate recipt for the balance and also facilitates transcation from one account to another.
+ 
 
 ## Research
 ### Bank Management System Features and Benefits
@@ -46,6 +47,7 @@ Bank management system provides wide range of benefit they are as follows:
     * Displaying account details
     * Transaction from one account to another
     * Generating recipt
+    * extrasssss
 <!--
 ## SWOT ANALYSIS
 ![SWOT Analysis](https://github.com/arc-arnob/LnT_Mini_Project/blob/main/1_Requirements/swot.png)
