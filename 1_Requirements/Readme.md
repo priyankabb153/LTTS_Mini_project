@@ -47,7 +47,7 @@ Bank management system provides wide range of benefit they are as follows:
     * Displaying account details
     * Transaction from one account to another
     * Generating recipt
-    * extrasssss
+   
 <!--
 ## SWOT ANALYSIS
 ![SWOT Analysis](https://github.com/arc-arnob/LnT_Mini_Project/blob/main/1_Requirements/swot.png)
