@@ -1,12 +1,12 @@
 # Requirements
 ## Introduction
- * The main aim of this project is to develop software for bank  management system. This project has been developed to carry out the process easily and quickly , which seems tedious with  manual systems .The system provides the access to the customer to create an account , deposit cash to his/her account,withdraw cash from his/her account also to display list of all account holders.
+ * The main aim of this project is to develop software for bank  management system. This project has been developed to carry out the process easily and quickly , which seems tedious with  manual systems .The system provides the access to the customer to create an account , search for an account, deposit cash to his/her account,withdraw cash from his/her account also to display list of all account holders.
  
 
 ## Research
 ### Bank Management System Features and Benefits
 Over the last several decades, the personnel function has evolved from a relatively obscure record-keeping function to a central and top-level management function. Many factors such as technological developments, professionalism, and the general recognition of people as the most important resources have influenced this transformation.
-A computer based management system is designed  to introduce more user friendliness in the various activities such as account creation , depositing amount , withdrawing amount and display all details.
+A computer based management system is designed  to introduce more user friendliness in the various activities such as account creation , searching , depositing amount , withdrawing amount and display all details.
 
 The main goal of our project is to provide various types of customer facilities, and to provide good  customer service. 
 
@@ -42,11 +42,10 @@ Bank management system provides wide range of benefit they are as follows:
 ### Explanation:
 * Patient Management Application have few inbuilt features like:
     * Create a new account
-    * Update information of existing account
-    * Delete an exisiting account
-    * Displaying account details
-    * Transaction from one account to another
-    * Generating recipt
+    * Search for an account
+    * Display all account holders details
+    * Deposit amount
+    * Withdraw amount
    
 <!--
 ## SWOT ANALYSIS
