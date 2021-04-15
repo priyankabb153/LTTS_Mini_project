@@ -15,7 +15,6 @@ The main goal of our project is to provide various types of customer facilities,
 
 ### Benefits
 
-hello
 Bank management system provides wide range of benefit they are as follows:
 
 ### Provides flexibility
@@ -42,8 +41,8 @@ Bank management system provides wide range of benefit they are as follows:
     * Emergency Services-->
 ![Description](https://github.com/priyankabb153/LTTS_Mini_project/blob/main/1_Requirements/system.png)
 ### Explanation:
-* Patient Management Application have few inbuilt features like:
-    * Create a new account
+  Features of Bank Management system are:
+    * Creating new accounts
     * Search for an account
     * Display all account holders details
     * Deposit amount
@@ -74,21 +73,21 @@ Bank management system provides wide range of benefit they are as follows:
 ## High Level Requirements: 
 | ID | Description | Category | Status | 
 | ----- | ----- | ------- | ---------|
-| HR01 | User shall be able to create accounts | Techincal | TBD-S1 | 
-| HR02 | User shall be able to view all accounts | Techincal | TBD-S1 |
-| HR03 | User shall be able to search an account | Techincal | TBD-S1 |
-| HR04 | User shall be able to deposit specified amount to an account| Techincal | TBD-S1 |
-| HR05 | User shall be able to withdraw specified amount from an account  | Techincal | TBD-S1 |
+| HR01 | User shall be able to create accounts | Techincal | IMPLEMENTED | 
+| HR02 | User shall be able to view all accounts | Techincal | IMPLEMENTED |
+| HR03 | User shall be able to search an account | Techincal | IMPLEMENTED |
+| HR04 | User shall be able to deposit specified amount to an account| Techincal | IMPLEMENTED |
+| HR05 | User shall be able to withdraw specified amount from an account  | Techincal | IMPLEMENTED |
 
 ##  Low level Requirements:
  
 | ID | Description | HLR ID | Status (Implemented/Future) |
 | ------ | --------- | ------ | ----- |
-| LR01 | User need to create account by providing all the required informations | HR01 | TBD-S1 |
-| LR02 | Displaying all the account holders details by printing all the records available| HR02 | TBD-S1 |
-| LR03 | If user searches for an account id which is not available  "Record not found  " message should be displayed | HR03 | FUTURE |
-| LR04 | If user specifies invalid account id for depositing amount  "Record not found  " message should be displayed | HR04 | TBD-S1 |
-| LR05 |  If user specifies invalid account id for withdrawing amount from an account "Record not found  " message should be displayed| HR05 | TBD-S1 |
-| LR06 | If user wants to withdraw amount which is greater than the balance then "Insufficient Balance " message has to be displayed | HR05 | TBD-S1 |
+| LR01 | User need to create account by providing all the required informations | HR01 | IMPLEMENTED |
+| LR02 | Displaying all the account holders details by printing all the records available| HR02 | IMPLEMENTED |
+| LR03 | If user searches for an account id which is not available  "Record not found  " message should be displayed | HR03 | IMPLEMENTED |
+| LR04 | If user specifies invalid account id for depositing amount  "Record not found  " message should be displayed | HR04 | IMPLEMENTED |
+| LR05 |  If user specifies invalid account id for withdrawing amount from an account "Record not found  " message should be displayed| HR05 | IMPLEMENTED |
+| LR06 | If user wants to withdraw amount which is greater than the balance then "Insufficient Balance " message has to be displayed | HR05 | IMPLEMENTED |
 
 
