@@ -7,6 +7,18 @@ PROJECT_NAME = 3_Implementation
 TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
 
+ ifdef OS
+   RM = del /q
+   FixPath = $(subst /,\,$1)
+   EXEC = exe
+else
+   ifeq ($(shell uname), Linux)
+      RM = rm -rf
+      FixPath = $1
+	  EXEC = out
+   endif
+endif
+
 SRC = main.c\
 src\create_account.c\
 src\deposit.c\
