@@ -16,6 +16,17 @@ Folder             | Description
 `3_Implementation` | All code and documentation
 `4_Test_plan`      | Documents with test plans and procedures
 
+## Features
+
+| Feature Id | Feature |
+| -----------|---------|
+|F_01| Create new records | |
+|F_02| Displaying all the account holders |
+|F_03| Search for an account based on account id |
+|F_04| Deposit amount from a specified account |
+|F_05| Withdraw amount from a specified account |
+
+
 <!--
 
 ## Contributors List and Summary
