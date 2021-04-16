@@ -1,12 +1,12 @@
 # Requirements
 ## Introduction
- * The main aim of this project is to develop software for bank  management system. This project has been developed to carry out the process easily and quickly , which seems tedious with  manual systems .The system provides the access to the customer to create an account , search for an account, deposit cash to his/her account,withdraw cash from his/her account also to display list of all account holders.
+ * The main aim of this project is to develop software for bank  management system. This project has been developed to carry out the process easily and quickly , which seems tedious with  manual systems .The system provides the access to the customer to create an account , display list of all account holders, deposit cash to his/her account,withdraw cash from his/her account also to check bank balance .
 
 
 ## Research
 ### Bank Management System Features and Benefits
 Over the last several decades, the personnel function has evolved from a relatively obscure record-keeping function to a central and top-level management function. Many factors such as technological developments, professionalism, and the general recognition of people as the most important resources have influenced this transformation.
-A computer based management system is designed  to introduce more user friendliness in the various activities such as account creation , searching , depositing amount , withdrawing amount and display all details.
+A computer based management system is designed  to introduce more user friendliness in the various activities such as account creation , depositing amount , withdrawing amount , display all details and fetching bank balance.
 
 The main goal of our project is to provide various types of customer facilities, and to provide good  customer service. 
 
@@ -43,10 +43,10 @@ Bank management system provides wide range of benefit they are as follows:
 ### Explanation:
   Features of Bank Management system are:
     * Creating new accounts
-    * Search for an account
     * Display all account holders details
     * Deposit amount
     * Withdraw amount
+    * Get account balance
    
 
 ## SWOT ANALYSIS
@@ -75,9 +75,9 @@ Bank management system provides wide range of benefit they are as follows:
 | ----- | ----- | ------- | ---------|
 | HR01 | User shall be able to create accounts | Techincal | IMPLEMENTED | 
 | HR02 | User shall be able to view all accounts | Techincal | IMPLEMENTED |
-| HR03 | User shall be able to search an account | Techincal | IMPLEMENTED |
-| HR04 | User shall be able to deposit specified amount to an account| Techincal | IMPLEMENTED |
-| HR05 | User shall be able to withdraw specified amount from an account  | Techincal | IMPLEMENTED |
+| HR03 | User shall be able to deposit specified amount to an account| Techincal | IMPLEMENTED |
+| HR04 | User shall be able to withdraw specified amount from an account  | Techincal | IMPLEMENTED |
+| HR05 | User shall be able to fetch account balance | Techincal | IMPLEMENTED |
 
 ##  Low level Requirements:
  
@@ -85,9 +85,14 @@ Bank management system provides wide range of benefit they are as follows:
 | ------ | --------- | ------ | ----- |
 | LR01 | User need to create account by providing all the required informations | HR01 | IMPLEMENTED |
 | LR02 | Displaying all the account holders details by printing all the records available| HR02 | IMPLEMENTED |
-| LR03 | If user searches for an account id which is not available  "Record not found  " message should be displayed | HR03 | IMPLEMENTED |
-| LR04 | If user specifies invalid account id for depositing amount  "Record not found  " message should be displayed | HR04 | IMPLEMENTED |
-| LR05 |  If user specifies invalid account id for withdrawing amount from an account "Record not found  " message should be displayed| HR05 | IMPLEMENTED |
-| LR06 | If user wants to withdraw amount which is greater than the balance then "Insufficient Balance " message has to be displayed | HR05 | IMPLEMENTED |
+| LR03 | If user specifies account id for depositing amount before creating any account ""NO ACCOUNTS EXIT" message should be displayed | HR03 | IMPLEMENTED |
+| LR04 | If user specifies account id which is not available for depositing amount  "Account number entered does not exist" message should be displayed | HR03 | IMPLEMENTED |
+| LR05 | If user specifies negative account id  or negative amount for depositing amount into the account "PLEASE ENTER VALID INPUT " message should be displayed | HR03 | IMPLEMENTED |
+| LR06 | If user specifies account id for withdrawing amount before creating any account ""NO ACCOUNTS EXIT" message should be displayed | HR04 | IMPLEMENTED |
+| LR07 | If user specifies account id which is not available for withdrawing amount  "Account number entered does not exist" message should be displayed | HR04 | IMPLEMENTED |
+| LR08 | If user specifies negative account id  or negative amount for withdrawing amount from the account "PLEASE ENTER VALID INPUT " message should be displayed | HR04 | IMPLEMENTED |
+| LR09 | If user wants to withdraw amount which is greater than the balance then "Insuffient funds cancelling transcation " message has to be displayed | HR04 | IMPLEMENTED |
+| LR10 | If user specifies invalid or unavailable account id to fetch the account balance "Account number doesnt exist" message has to be displayed | HR05 | IMPLEMENTED |
+
 
 
