@@ -5,6 +5,7 @@ Visit [Pages for Report -optional](using github.io option)
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/afdc764c077348d098623491239d2d5f)](https://app.codacy.com/gh/priyankabb153/LTTS_Mini_project?utm_source=github.com&utm_medium=referral&utm_content=priyankabb153/LTTS_Mini_project&utm_campaign=Badge_Grade_Settings)
 <!--[![C/C++ CI](https://github.com/arc-arnob/LnT_Mini_Project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/arc-arnob/LnT_Mini_Project/#actions/workflows/c-cpp.yml)-->  To be added | To be added | To be added | To be added
 
 
