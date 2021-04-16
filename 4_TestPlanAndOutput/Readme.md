@@ -30,4 +30,4 @@
 
 
 
-|  L_06       |H_06|If first node is being deleted then deletion from beginning algorithm should work |(1). File pointers | SUCCESS | SUCCESS  |Technical|
+
