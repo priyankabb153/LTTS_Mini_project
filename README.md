@@ -7,6 +7,7 @@ Visit [Pages for Report -optional](using github.io option)
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
+ To be added | To be added | To be added | To be added
 
 -->
 
@@ -16,7 +17,7 @@ Codacy |
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/7df112b9052042d6b64c825199f69ace)](https://www.codacy.com/gh/priyankabb153/LTTS_Mini_project/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=priyankabb153/LTTS_Mini_project&amp;utm_campaign=Badge_Grade)
 
 
-<!--[![C/C++ CI](https://github.com/arc-arnob/LnT_Mini_Project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/arc-arnob/LnT_Mini_Project/#actions/workflows/c-cpp.yml)-->  To be added | To be added | To be added | To be added
+<!--[![C/C++ CI](https://github.com/arc-arnob/LnT_Mini_Project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/arc-arnob/LnT_Mini_Project/#actions/workflows/c-cpp.yml)--> 
 
 
 ## Folder Structure
