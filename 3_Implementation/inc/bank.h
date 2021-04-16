@@ -38,7 +38,7 @@ typedef enum error_t{
  * @brief declaring a struct customer with account number,name,age, adress phone number and balance
  * 
  */
-struct customer {
+typedef struct customer {
   int acc_no;
   char name[MAX_NAME];
   int age;
@@ -46,55 +46,60 @@ struct customer {
   long long int phone_no;
   int balance;
 
-};
-
+}customerlist;
 /**
- * @brief function to Create a account
+ * @brief count to keep track of records of account
  * 
- * @param list it is the list to hold customer details
- * @param number the number of accounts to be created
  */
-void create_account(struct customer list[],int number);
-
+static int count=0;
 
 /**
- * @brief function to display all the details of the account holders
+ * @brief function to Create a account which takes customer list as input
  * 
- * @param list it is the list to hold customer details
- * @param number the number of accounts present
+ * @return int int returns the count of records
  */
-void display_account(struct customer list[], int number);
+int create_account(customerlist[]);
+
 
 /**
- * @brief function to search an account of the customer based on the account number which returns the index upon finding the account or else returns -1
+ * @brief function to display all the details of the account holders which takes input list to hold customer details
  * 
- * @param list it is the list to hold customer details
- * @param number the number of accounts created
+ * @param count the count of accounts present
+ */
+void display_account(customerlist[],int count);
+
+
+/**
+ * @brief function to search an account of the customer based on the account number which returns the index upon finding the account or else returns -1 
+ * 
+ * @param count  the count of accounts created
  * @param account_no the account number to search the account in the list of customers
  * @return int if the account is found then the index of account is returned or else -1 is returned
  */
-int search(struct customer list[], int number, int account_no);
+int search(customerlist[],int count, int account_no);
 
 /**
  * @brief function to deposit specified amount into an account
  * 
- * @param list  it is the list to hold customer details
- * @param number the number of accounts created
+ * @param count the count of accounts created
  * @param account_no the account number to search the account in the list of customers to deposit amount
  * @param amt the amount which has to be deposited
  */
-void deposit(struct customer list[], int number, int account_no, int amt);
+void deposit(customerlist[],int count, int account_no, int amt);
+
+
+
+
 
 /**
- * @brief function to withdraw amount from specified account
+ * @brief  function to withdraw amount from specified account
  * 
- * @param list  it is the list to hold customer details
- * @param number the number of accounts created
+ * @param count the number of accounts created
  * @param account_no the account number to search the account in the list of customers to withdraw amount
  * @param amt the amount which has to be withdrawed
  */
+void withdraw(customerlist[], int count ,int account_no, int amt);
 
-void withdraw(struct customer list[], int number, int account_no, int amt);
 
 //error_t search_id(struct customer list[], int number, int account_no);
 

@@ -1,18 +1,17 @@
 #include "bank.h"
 
-void deposit(struct customer list[], int number, int account_no, int amt){
+void deposit(customerlist customer_list[] , int count,int account_no, int amt){
 
    printf("*************DEPOSITE AMOUNT***************\n");
-    int i = search(list, number,account_no );
+    int i = search(customer_list,count,account_no );
     if (i ==  - 1)
     {
         printf("Record not found\n");
-         printf("\n***************************************************\n\n");
     }
     else
     {
-        list[i].balance += amt;
-         printf("Amount credited sucessfully!!!!!!!!!!!!!!!!\n");
+        customer_list[i].balance += amt;
+        printf("Amount credited sucessfully\n");
 
          printf("\n***************************************************\n\n");
     

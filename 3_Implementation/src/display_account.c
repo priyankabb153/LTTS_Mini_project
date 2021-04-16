@@ -1,13 +1,16 @@
 #include "bank.h"
 
-void display_account(struct customer list[], int number){
-
+void display_account(customerlist customer_list[],int count){
+ 
    printf("*******************All account holders details are as follows**********************\n");
    int i;
-   printf("Account No\tName\tAge\tPhone No\tBalance\n");
-    for (i = 0; i < number; i++)
+    printf("Account No\tName\tAge\tPhone No\tBalance\n");
+    for (i = 0; i < count; i++)
     {
-        printf("%d\t%s\t%d\t%s\t%lld\t%d\n", list[i].acc_no, list[i].name,list[i].age,list[i].address,list[i].phone_no,list[i].balance);
+        printf("%d\t%s\t%d\t%s\t%lld\t%d\n", customer_list[i].acc_no, customer_list[i].name,customer_list[i].age,customer_list[i].address,customer_list[i].phone_no,customer_list[i].balance);
     }
+   
     printf("\n***************************************************\n\n");
+    
+
 }

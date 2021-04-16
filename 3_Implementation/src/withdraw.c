@@ -1,21 +1,23 @@
 #include "bank.h"
-void withdraw(struct customer list[], int number, int account_no, int amt)
+void withdraw(customerlist customer_list[],int count, int account_no, int amt)
 {
-    int i = search(list, number, account_no);
+    int i = search(customer_list,count, account_no);
     if (i ==  - 1)
     {
         printf("Record not found\n");
     }
-    else if (list[i].balance < amt)
+    else if (customer_list[i].balance < amt)
     {
         printf("Insufficient balance\n");
     }
     else
     {
-        list[i].balance -= amt;
-         printf("Amount debited sucessfully!!!!!!!!!!!!!!!!\n");
-         printf("\ncurrent balance after withdraw is %d\n",list[i].balance);
+        customer_list[i].balance -= amt;
+
+          printf("Amount debited \n");
+          printf("current balance after withdraw is %d\n",customer_list[i].balance);
 
          printf("\n***************************************************\n\n");
+    
     }
 }
