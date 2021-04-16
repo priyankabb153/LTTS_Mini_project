@@ -9,8 +9,3 @@
 * Usecase Diagram :
 ![UsecaseDiagram](https://github.com/priyankabb153/LTTS_Mini_project/blob/main/2_Architecture/Usecasehdl.png)
 
-## Low Level Design 
-
---- TBD Structural and Behavioural Diagram
-![FeaturesLevelStructuralDiagram](Link to Pic)
-![FeaturesBehaviouralDiagram](Link to Pic)
