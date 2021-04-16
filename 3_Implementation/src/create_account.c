@@ -7,11 +7,10 @@ node* create_account(node* head)
     int number, acc_no, amount;
     printf("Enter account details to create account\n");
     new=(node*) malloc(sizeof(node));
-
+    
     new->acc_no=account_number;
     printf("Enter name : ");
     scanf("%s",new->name);
-    //gets(new->cst.name);
     fflush(stdin);
     printf("Enter the age:");
     scanf("%d",&new->age);
