@@ -88,7 +88,7 @@ Bank management system provides wide range of benefit they are as follows:
 | LR03 | If user specifies account id for depositing amount before creating any account ""NO ACCOUNTS EXIT" message should be displayed | HR03 | IMPLEMENTED |
 | LR04 | If user specifies account id which is not available for depositing amount  "Account number entered does not exist" message should be displayed | HR03 | IMPLEMENTED |
 | LR05 | If user specifies negative account id  or negative amount for depositing amount into the account "PLEASE ENTER VALID INPUT " message should be displayed | HR03 | IMPLEMENTED |
-| LR06 | If user specifies account id for withdrawing amount before creating any account ""NO ACCOUNTS EXIT" message should be displayed | HR04 | IMPLEMENTED |
+| LR06 | If user specifies account id for withdrawing amount before creating any account "NO ACCOUNTS EXIT" message should be displayed | HR04 | IMPLEMENTED |
 | LR07 | If user specifies account id which is not available for withdrawing amount  "Account number entered does not exist" message should be displayed | HR04 | IMPLEMENTED |
 | LR08 | If user specifies negative account id  or negative amount for withdrawing amount from the account "PLEASE ENTER VALID INPUT " message should be displayed | HR04 | IMPLEMENTED |
 | LR09 | If user wants to withdraw amount which is greater than the balance then "Insuffient funds cancelling transcation " message has to be displayed | HR04 | IMPLEMENTED |
