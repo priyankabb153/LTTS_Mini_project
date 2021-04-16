@@ -12,7 +12,7 @@ int main()
     do
     {
         printf("~~~~~~~~~~~~~~~~~~~~~~~~~~MENU~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
-        printf("1.Create ACCOUNT\n2.VIEW ALL ACCOUNTS\n3.Deposit\n4.WITHDRAW\n5.GET ACCOUNT BALANCE\n6.EXIT\n\n");
+        printf("1.CREATE ACCOUNT\n2.VIEW ALL ACCOUNTS\n3.Deposit\n4.WITHDRAW\n5.GET ACCOUNT BALANCE\n6.EXIT\n\n");
         printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
         scanf("%d",&choice);
         switch(choice)

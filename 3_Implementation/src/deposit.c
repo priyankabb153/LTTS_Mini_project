@@ -27,6 +27,9 @@ void deposit(node * head,int account_no, int amt){
    }
 
    cur->balance=cur->balance+amt;
+   printf("Amount deposit sucessful!!!!!!!!\n");
+   printf("Current balance is %d\n",cur->balance);
+   printf("*********************************************************\n");
    return;
   
 }

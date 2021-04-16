@@ -34,6 +34,7 @@ void withdraw(node*head,int account_no, int amt)
    }
    else{
        printf("Insuffient funds cancelling transcation!!!!!!!!!!!!\n");
+       printf("*********************************************************\n");
    }
    return;
 }

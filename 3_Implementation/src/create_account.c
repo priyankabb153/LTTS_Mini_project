@@ -7,7 +7,7 @@ node* create_account(node* head)
     int number, acc_no, amount;
     printf("Enter account details to create account\n");
     new=(node*) malloc(sizeof(node));
-    
+
     new->acc_no=account_number;
     printf("Enter name : ");
     scanf("%s",new->name);
@@ -31,8 +31,9 @@ node* create_account(node* head)
         for(cur=head;cur->next!=NULL;cur=cur->next);
         cur->next=new;
     }
-
-   printf("***************************************************\n");
+   printf("Account created sucessfully!!!!!!!!!!!!!!\n\n");
+   printf(" The account number allocted is %d \n",account_number);
+   printf("*********************************************************\n");
    account_number++;
    return head;
     
