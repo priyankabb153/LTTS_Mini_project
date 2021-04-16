@@ -1,6 +1,6 @@
 # Requirements
 ## Introduction
- * The main aim of this project is to develop software for bank  management system. This project has been developed to carry out the process easily and quickly , which seems tedious with  manual systems .The system provides the access to the customer to create an account , display list of all account holders, deposit cash to his/her account,withdraw cash from his/her account also to check account balance .
+ * The main aim of this project is to develop software for bank  management system. This project has been developed to carry out the process easily and quickly , which seems tedious with  manual systems .The system enables the user to create an account , display list of all account holders, deposit cash to his/her account,withdraw cash from his/her account also to check account balance .
 
 
 ## Research
