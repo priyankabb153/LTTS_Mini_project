@@ -22,9 +22,10 @@ Folder             | Description
 | -----------|---------|
 |F_01| Create new records | |
 |F_02| Displaying all the account holders |
-|F_03| Search for an account based on account id |
-|F_04| Deposit amount from a specified account |
-|F_05| Withdraw amount from a specified account |
+|F_03| Deposit amount to a specified account |
+|F_04| Withdraw amount from a specified account |
+|F_05| Fetch balance of a specified account |
+
 
 
 <!--
