@@ -2,73 +2,66 @@
 
 int main()
 {
+    node *head = NULL;
+   account_number=1;
     int choice;
-    customerlist accounts[20];
-    int account_no, amount, index;
-    printf("********************* Bank management system ***********************\n");
-    printf("\n\n");
-    printf("********************* Welcome to the bank ***********************\n");
-
-        //printf("Total number of customer records you ant to enter ?:");
-        //scanf("%d", &number);
-        //create_account(data, number);
-       // count=number;
-        // system("cls");
-        int number=0;
-        do{
-       
-        printf("\n~~~~~~~~~~~~~~~~~~~~~~~~~~MENU~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
-        printf("1.CREATE ACCOUNT\n2.VIEW ALL ACCOUNTS\n3.SEARCH\n4.Deposit\n5.WITHDRAW\n6.EXIT\n");
+    node* cur;
+    node* next;
+    int number, account_no, amount, index,account_balance=0;
+   
+    do
+    {
+        printf("~~~~~~~~~~~~~~~~~~~~~~~~~~MENU~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
+        printf("1.Create ACCOUNT\n2.VIEW ALL ACCOUNTS\n3.Deposit\n4.WITHDRAW\n5.GET ACCOUNT BALANCE\n6EXIT\n\n");
         printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
         scanf("%d",&choice);
-        switch(choice){
-           case 1:number=create_account(accounts);
-                 // count++;
-
+        switch(choice)
+        {
+            case 1:
+                  head=create_account(head);
                   break;
-           case 2:
-                display_account(accounts,number);
+
+            case 2:
+                display_account(head);
                 break;
+           
             case 3:
-                printf("Enter account number to search : ");
-                scanf("%d", &account_no);
-                index = search(accounts,number, account_no);
-                if (index ==  - 1)
-                {
-                    printf("Record not found : \n");
-                }
-                else
-                {
-                    printf("A/c Number: %d\nName: %s\nAge: %d\nAddress: %s\nPhone number: %lld\nBalance: %d\n",
-                        accounts[index].acc_no, accounts[index].name,accounts[index].age,accounts[index].address,accounts[index].phone_no,
-                        accounts[index].balance);
-                }
-                break;
-            case 4:
                 printf("Enter account number : ");
                 scanf("%d", &account_no);
                 printf("Enter amount to deposit : ");
                 scanf("%d", &amount);
-                deposit(accounts,number,account_no, amount);
+                deposit(head,account_no, amount);
                 break;
-            case 5:
+                
+            case 4:
                 printf("Enter account number : ");
                 scanf("%d", &account_no);
                 printf("Enter amount to withdraw : ");
                 scanf("%d", &amount);
-                withdraw(accounts,number,account_no, amount);
+                withdraw(head,account_no, amount);
                 break;
-            case 6:break;
-
-
+            case 5:
+                printf("Enter account number : ");
+                scanf("%d", &account_no);
+                account_balance=get_account_balance(head,account_no);
+                if(account_balance==-1){
+                    printf("Account number doesnt exist!!!!\n");
+                    break;
+                }
+                printf("Account balance is %d!!!!!!\n",account_balance);
+                break;
+                
         }
     }
     while (choice != 6);
-
-
+    
+    printf("Releasing the dynamic memory allocated\n");
+    for(cur=head;cur!=NULL;)
+    {
+        next=cur->next;
+        free(cur);
+        cur=next;
+    }
     
    return 0;
 }
-
-
-

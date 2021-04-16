@@ -1,22 +1,32 @@
 #include "bank.h"
 
-void deposit(customerlist customer_list[] , int count,int account_no, int amt){
+void deposit(node * head,int account_no, int amt){
 
-   printf("*************DEPOSITE AMOUNT***************\n");
-    int i = search(customer_list,count,account_no );
-    if (i ==  - 1)
-    {
-        printf("Record not found\n");
-    }
-    else
-    {
-        customer_list[i].balance += amt;
-        printf("Amount credited sucessfully\n");
+   printf("*************DEPOSIT AMOUNT***************\n");
+   node* cur;
+   node* next;
 
-         printf("\n***************************************************\n\n");
-    
-    }
+   if(head==NULL)
+   {
+       printf("NO ACCOUNTS EXITS!!!!!!!!!!\n");
+       return;
+   }
 
+   if(account_no<=0 || amt<=0)
+   {
+       printf("PLEASE ENTER VALID INPUT!!!!!!!!!!\n");
+       return;
+   }
 
+   for(cur=head; cur!=NULL && cur->acc_no!=account_no;cur=cur->next);
 
+   if(cur==NULL)
+   {
+       printf("Account number entered does not exist!!!!!!!!!\n");
+       return;
+   }
+
+   cur->balance=cur->balance+amt;
+   return;
+  
 }

@@ -1,23 +1,39 @@
 #include "bank.h"
-void withdraw(customerlist customer_list[],int count, int account_no, int amt)
+
+void withdraw(node*head,int account_no, int amt)
 {
-    int i = search(customer_list,count, account_no);
-    if (i ==  - 1)
-    {
-        printf("Record not found\n");
-    }
-    else if (customer_list[i].balance < amt)
-    {
-        printf("Insufficient balance\n");
-    }
-    else
-    {
-        customer_list[i].balance -= amt;
+    printf("*************Withdraw AMOUNT***************\n");
+   node* cur;
+   node* next;
 
-          printf("Amount debited \n");
-          printf("current balance after withdraw is %d\n",customer_list[i].balance);
+   if(head==NULL)
+   {
+       printf("NO ACCOUNTS EXITS!!!!!!!!!!\n");
+       return;
+   }
 
-         printf("\n***************************************************\n\n");
-    
-    }
+   if(account_no<=0 || amt<=0)
+   {
+       printf("PLEASE ENTER VALID INPUT!!!!!!!!!!\n");
+       return;
+   }
+
+   for(cur=head; cur!=NULL && cur->acc_no!=account_no;cur=cur->next);
+
+   if(cur==NULL)
+   {
+       printf("Account number entered does not exist!!!!!!!!!\n");
+       return;
+   }
+
+   if(amt<=cur->balance)
+   {
+       cur->balance=cur->balance-amt;
+       printf("Withdraw of %d amount from account %d successful!!!!!\n\n",amt,cur->acc_no);
+       printf("Remaining balance is %d!!!!!!!!!!!\n",cur->balance);
+   }
+   else{
+       printf("Insuffient funds cancelling transcation!!!!!!!!!!!!\n");
+   }
+   return;
 }
