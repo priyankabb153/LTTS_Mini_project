@@ -29,7 +29,7 @@ src\get_account_balance.c\
 src\withdraw.c
 
 
-TEST_SRC = test.c \
+TEST_SRC = test\test.c \
 	unity/unity.c 
 
 INC_H=inc
@@ -48,20 +48,17 @@ $(PROJECT_NAME):$(SRC)
 
 	
 #test: $(SRC) $(TEST_SRC)
-#	gcc -I $(INC_H) $(INC) $(TEST_SRC) $(SRC)  -o test.exe
+#	gcc -I $(INC_H) $(INC) $(TEST_SRC) -o $(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
+#	./$(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
 
-
-
-#	gcc $^ $(INC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
-#	$(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
 
 #test:
 #	gcc -I $(INC) $(INC_H) $(TEST_SRC) $(SRC) -o $(PROJECT_NAME).exe
 #gcc -I $(INC_H)  $(INC) $(TEST_SRC) $(SRC) -o $(call FixPath,$(TEST_PROJ_NAME).$(EXEC)) 
 #	./$(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
   
-
-#gcc -I unity -I inc test.c src/create_account.c src/deposit.c src/display_account.c src/search.c src/withdraw.c unity/unity.c -o test.exe
+#test:
+#   gcc -I unity -I inc test.c src/create_account.c src/deposit.c src/display_account.c src/search.c src/withdraw.c unity/unity.c -o test.exe
 
 #to delete all the exe files	
 clean :
