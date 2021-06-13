@@ -1,7 +1,7 @@
 ### Screenshots
 
 
-!.[screen](https://github.com/priyankabb153/LTTS_Mini_project/blob/main/5_Images/Screenshot%20(1697).png)
+!.[screen](https://github.com/priyankabb153/LTTS_Mini_project/blob/main/6_ImagesAndVideos/Screenshot%20(1697).png)
 ![screen](https://github.com/priyankabb153/LTTS_Mini_project/blob/main/5_Images/Screenshot%20(1698).png)
 ![screen](https://github.com/priyankabb153/LTTS_Mini_project/blob/main/5_Images/Screenshot%20(1699).png)
 ![screen](https://github.com/priyankabb153/LTTS_Mini_project/blob/main/5_Images/Screenshot%20(1700).png)
