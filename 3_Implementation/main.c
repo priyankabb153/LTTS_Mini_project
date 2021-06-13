@@ -2,17 +2,20 @@
 
 int main()
 {
+    FILE *fp=fopen("bank_record", "+a");
+    fclose(fp);
     node *head = NULL;
-   account_number=1;
+    account_number=1;
     int choice;
     node* cur;
     node* next;
+    
     int number, account_no, amount, index,account_balance=0;
    
     do
     {
         printf("~~~~~~~~~~~~~~~~~~~~~~~~~~MENU~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
-        printf("1.CREATE ACCOUNT\n2.VIEW ALL ACCOUNTS\n3.Deposit\n4.WITHDRAW\n5.GET ACCOUNT BALANCE\n6.EXIT\n\n");
+        printf("1.CREATE ACCOUNT\n2.VIEW ALL ACCOUNTS\n3.Deposit\n4.WITHDRAW\n5.GET ACCOUNT BALANCE\n6.WRITE TO FILE AND EXIT\n\n");
         printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
         scanf("%d",&choice);
         switch(choice)
@@ -50,10 +53,14 @@ int main()
                 }
                 printf("Account balance is %d!!!!!!\n",account_balance);
                 break;
+            case 6:write_to_file(head);
+                break;
                 
         }
+        
     }
     while (choice != 6);
+    
     
     printf("Releasing the dynamic memory allocated\n");
     for(cur=head;cur!=NULL;)

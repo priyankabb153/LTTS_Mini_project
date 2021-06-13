@@ -83,4 +83,12 @@ void withdraw(node *head,int account_no, int amt);
 
 int get_account_balance(node *head,int account_no);
 
+
+/**
+ * @brief To rite all account details to file
+ * 
+ * @param head the head pointer is sent as parameter
+ */
+void write_to_file(node *head);
+
 #endif

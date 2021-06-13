@@ -26,7 +26,9 @@ src\create_account.c\
 src\display_account.c\
 src\deposit.c\
 src\get_account_balance.c\
-src\withdraw.c
+src\withdraw.c\
+src\write_to_file.c
+
 
 
 TEST_SRC = test\test.c \
